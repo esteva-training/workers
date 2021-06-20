@@ -1,0 +1,10 @@
+name = "personalization-worker"
+type = "webpack"
+account_id = "e90e2db9f128821803827da43b457e31"
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config="webpack.config.js"
+
+[env.production]
+webpack_config="webpack.production.js"
