@@ -1,6 +1,6 @@
 import parser from 'accept-language-parser'
 
-// TODO: this could go into KV
+// TODO: this could go into KV !!
 const dictionaries = {
   en: {
     latest: 'My latest',
