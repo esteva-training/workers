@@ -5,4 +5,5 @@ addEventListener('fetch', event => {
   event.passThroughOnException()
   // it will skip this
   event.respondWith(handleRequest(event.request))
+  // todo
 })
